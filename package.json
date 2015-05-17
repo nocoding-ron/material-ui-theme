@@ -1,0 +1,22 @@
+{
+  "name": "material-ui-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nocoding-ron/material-ui-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nocoding-ron/material-ui-theme/issues"
+  },
+  "homepage": "https://github.com/nocoding-ron/material-ui-theme",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}

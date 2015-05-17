@@ -105,6 +105,7 @@ add_action( 'widgets_init', 'material_ui_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function material_ui_theme_scripts() {
+	wp_enqueue_style('material-ui-theme-general',get_template_directory_uri().'/css/app.css');
 	wp_enqueue_style( 'material-ui-theme-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'material-ui-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
